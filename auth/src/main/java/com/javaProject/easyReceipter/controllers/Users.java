@@ -49,7 +49,7 @@ public class Users {
         }
 //        turn on/off the following services to sign up as a user or as an admin
         userService.saveUserWithAdminRole(user);
-//        userService.saveWithUserRole(user);
+        userService.saveWithUserRole(user);
         
         return "redirect:/login";
     }
